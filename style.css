@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Roboto Slab', serif;
+    box-sizing: border-box;
+}
+
+.accordian{
+    width: 60vw;
+    margin: 100px auto;
+   
+    display: grid;
+    grid-gap:28px;
+}
+
+.down-arrow{
+    width: 28px;
+    fill: green;
+    font-weight: 500;
+}
+
+.box{
+    width: 100%;
+    box-shadow: 0 0 30px rgb(180, 176, 176);
+    padding:24px;
+}
+
+.first-box,
+.second-box,
+.third-box{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-gap:24px;
+}
+
+.accordian-lists{
+    grid-column: 2;
+    margin-left: 36px;
+}
+
+.number{
+    font-size: 24px;
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+}
+
+
+.question{
+    line-height: 1.8;
+    padding: 24px;
+    font-size: 24px;
+    font-weight: bolder;
+    letter-spacing: .3px;
+
+}
+
+.image-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.accordian-lists{
+    display: grid;
+    grid-gap:18px;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    margin-left: 40px;
+}
+
+.hide{
+    display: none;
+}
+
+.open{
+    border-top: 4px solid green;
+}
+
+.green{
+    color:green;
+}
+
+.accordian-para{
+    grid-column: 2;
+}
+
+
+
+
+
